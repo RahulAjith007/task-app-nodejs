@@ -1,5 +1,4 @@
 const mongoose = require('mongoose')
-const validator = require('validator')
 
 
 const Task = mongoose.model('Task', {
@@ -13,3 +12,6 @@ const Task = mongoose.model('Task', {
         default: false
     }
 })
+
+
+module.exports = Task
